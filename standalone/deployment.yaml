@@ -16,8 +16,8 @@ spec:
         app: bear-blog
     spec:
       securityContext:
-        runAsUser: 12000
-        runAsGroup: 11000
+        runAsUser: 12001
+        runAsGroup: 11001
       containers:
         - name: bear-blog
           image: bear-blog:latest
